@@ -181,5 +181,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Finance\" />
+    <Folder Include="Inkoop\" />
+    <Folder Include="Maintenance\" />
+    <Folder Include="Sales\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
