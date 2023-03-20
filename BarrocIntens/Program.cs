@@ -20,7 +20,7 @@ namespace BarrocIntens
         {
             dbContext = new AppDbContext();
             // De lijn hieronder uncommenten om database opnieuw aan te maken
-            dbContext.Database.EnsureDeleted();
+            //dbContext.Database.EnsureDeleted();
             dbContext.Database.EnsureCreated();
 
             Application.EnableVisualStyles();
