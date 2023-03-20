@@ -1,0 +1,11 @@
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\bin\Debug\BarrocIntens.exe.config
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\bin\Debug\BarrocIntens.exe
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\bin\Debug\BarrocIntens.pdb
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.csproj.AssemblyReference.cache
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.csproj.SuggestedBindingRedirects.cache
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.LoginForm.resources
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.Properties.Resources.resources
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.csproj.GenerateResource.cache
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.csproj.CoreCompileInputs.cache
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.exe
+C:\Users\guyyv\source\repos\BarrocIntens\BarrocIntens\obj\Debug\BarrocIntens.pdb
