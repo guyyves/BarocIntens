@@ -28,9 +28,9 @@ namespace BarrocIntens.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // Deze lijn uncommenten voor db logs
-            //optionsBuilder.EnableSensitiveDataLogging();
+            optionsBuilder.EnableSensitiveDataLogging();
             optionsBuilder.UseMySql
-                ("server=localhost;database=barroc_intens_app;user=root;password=;");
+                ("server=localhost;database=barroc_intens;user=root;password=;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -47,7 +47,8 @@ namespace BarrocIntens.Models
                 new User { Id = 9, Name = "Sales manager 3", Username = "sales3", Password = "pass", RoleId = 3, isManager = true },
                 new User { Id = 10, Name = "Finance Gebruiker 1", Username = "finance1", Password = "pass", RoleId = 4 },
                 new User { Id = 11, Name = "Finance Gebruiker 2", Username = "finance2", Password = "pass", RoleId = 4 },
-                new User { Id = 12, Name = "Finance manager 3", Username = "finance3", Password = "pass", RoleId = 4, isManager = true }
+                new User { Id = 12, Name = "Finance manager 3", Username = "finance3", Password = "pass", RoleId = 4, isManager = true },
+                new User { Id = 13, Name = "Finance manager 3", Username = "finance4", Password = "pass", RoleId = 4, isManager = true }
             );
 
             modelBuilder.Entity<Role>().HasData(

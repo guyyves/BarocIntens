@@ -30,3 +30,4 @@ namespace BarrocIntens.Models
             return $"{Name} (€{doublePrice})";
         }
     }
+}
