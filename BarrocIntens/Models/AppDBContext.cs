@@ -48,7 +48,8 @@ namespace BarrocIntens.Models
                 new User { Id = 10, Name = "Finance Gebruiker 1", Username = "finance1", Password = "pass", RoleId = 4 },
                 new User { Id = 11, Name = "Finance Gebruiker 2", Username = "finance2", Password = "pass", RoleId = 4 },
                 new User { Id = 12, Name = "Finance manager 3", Username = "finance3", Password = "pass", RoleId = 4, isManager = true },
-                new User { Id = 13, Name = "Finance manager 3", Username = "finance4", Password = "pass", RoleId = 4, isManager = true }
+                new User { Id = 13, Name = "Finance manager 3", Username = "finance4", Password = "pass", RoleId = 4, isManager = true },
+                new User { Id = 14, Name = "Admin", Username = "Admin", Password = "Admin", RoleId = 5, isManager = true}
             );
 
             modelBuilder.Entity<Role>().HasData(
